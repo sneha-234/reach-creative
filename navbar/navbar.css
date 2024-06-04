@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: white; /* Background color set to white */
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures the navbar is on top of other content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow for better visibility */
+}
+
+.navbar a {
+    color: black; /* Text color set to black */
+    text-decoration: none;
+    padding: 14px 20px;
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.navbar a:hover {
+    color: blue; /* Change text color to blue on hover */
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a {
+    margin-left: 10px; /* Adjusted to left margin for spacing */
+}
+
+.nav-image {
+    position: absolute;
+    top: 50%; /* Position the image half below the navbar */
+    left: 20px; /* Adjust left position as needed */
+    transform: translateY(10%);
+    transform: translateX(10%);
+    margin-left: 20%;
+}
+
+.nav-image img {
+    height: 100px; /* Adjust the size as needed */
+}
+
+.content {
+    padding-top: 80px; /* Add padding to avoid content being hidden under the fixed navbar */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-top: 100px; /* Adjust margin to create space below navbar */
+    background-color: #f0f0f0; 
+    margin-top: 0;/* Grey background color */
+}
+
+.container-image {
+    flex: 1; /* Allow image to take up equal space */
+}
+
+.container-image img {
+    width: 100%;
+    height: auto; /* Ensure the image maintains aspect ratio */
+}
+
+.container-text {
+    flex: 1; /* Allow text to take up equal space */
+    max-width: 600px; /* Optional: set a max-width for the text container */
+    padding: 0 20px; /* Padding between image and text */
+}
+
+.container-text h1 {
+    font-size: 70px;
+    margin-top: -10px 
+
+}
+
+.heading-1
+{
+    font-size: 70px;
+   margin-bottom: -2%;
+   color: lightblue;
+}
+.heading-2{
+    font-size: 70px;
+    margin-top: -10px ;
+    color:grey;
+}
+
+.container-text p {
+    font-size: 16px;
+    margin: 0 0 20px 0;
+}
+
+.get-started {
+    padding: 10px 20px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid black; 
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s; 
+    display: inline-flex;
+    align-items: center;
+}
+
+.get-started:hover {
+    background-color: lightblue; 
+    color: white; 
+}
+
+.get-started i {
+    margin-left: 10px; 
+}

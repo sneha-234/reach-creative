@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Container with Table and Image Slider</title>
+    <link rel="stylesheet" href="./process.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="table-container">
+        <table>
+            <tr>
+                <th>Process cards </th>
+            </tr>
+            <tr>
+                <td>Copywriting</td>
+            </tr>
+            <tr>
+                <td>Design</td>
+            </tr>
+            <tr>
+                <td>Development</td>
+            </tr>
+            <tr>
+                <td>Video</td>
+            </tr>
+           
+        </table>
+    </div>
+    <div class="slider-container">
+        <div class="slider-wrapper">
+            <div class="slider" id="slider">
+                <div class="slide">
+                    <img src="../images/product1.jpg" alt="Image 1">
+                    <div class="heading">Design Print</div>
+                    <div class="subheading">View Full Card</div>
+                </div>
+                <div class="slide">
+                    <img src="../images/product1.jpg" alt="Image 2">
+                    <div class="heading">Be spoke</div>
+                    <div class="subheading">View Full Card</div>
+                </div>
+                <div class="slide">
+                    <img src="../images/prodeuct 2.jpg" alt="Image 3">
+                    <div class="heading"> CM spoke</div>
+                    <div class="subheading">View Full Card</div>
+                </div>
+                <div class="slide">
+                    <img src="../images/product3.jpg" alt="Image 4">
+                    <div class="heading"> Design Print</div>
+                    <div class="subheading">View Full Card</div>
+                </div>
+                <div class="slide">
+                    <img src="../images/product5.jpg" alt="Image 5">
+                    <div class="heading">be spoke</div>
+                    <div class="subheading">View Full Card</div>
+                </div>
+                <div class="slide">
+                    <img src="../images/product6.jpg" alt="Image 6">
+                    <div class="heading">CM commerial</div>
+                    <div class="subheading">View Full Card</div>
+                </div>
+            </div>
+            <button class="prev" onclick="slideLeft()">&#10094;</button>
+            <button class="next" onclick="slideRight()">&#10095;</button>
+        </div>
+    </div>
+</div>
+
+<script src="./process.js"></script>
+</body>
+</html>
